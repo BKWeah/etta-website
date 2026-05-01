@@ -1,0 +1,41 @@
+ETTA Website Upload Guide
+
+Files included:
+- index.html
+- public/images/
+
+How to use:
+1. Upload/replace the full contents of this folder in your GitHub repo.
+2. Keep index.html in the root of the repo.
+3. Keep all images inside public/images/.
+4. Vercel will serve public/images files as /images/file-name.jpg.
+5. Push to GitHub. Vercel will redeploy automatically.
+
+Important image names currently used:
+- etta-logo.jpg
+- hero-cocoa-harvest.jpg
+- farmer-community.jpg
+- cocoa-drying.jpg
+- cocoa-pods.jpg
+- etta-team.jpg
+- ernest-jacobs.jpg
+- tk-kpair.jpg
+- gboinzo-gblorso.jpg
+
+The company tagline used:
+Empowering Farmers, Cultivating Quality
+
+
+GLOBAL EXPORT UPGRADE NOTES
+
+This version includes:
+- Premium logo placement in the header
+- Real ETTA logo and company images
+- Upgraded team profile cards
+- Export-ready positioning copy
+- Stronger global cocoa trade language
+- Tagline applied across the brand: Empowering Farmers, Cultivating Quality
+
+Recommended next image additions:
+- A clean photo of Orocious Moifore for the Operations Manager card
+- Higher-resolution cocoa handling/export images if available
