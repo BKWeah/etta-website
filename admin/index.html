@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ETTA CMS - Content Management</title>
+  <link rel="icon" type="image/png" href="../images/etta-logo.png">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', system-ui, sans-serif;
+      background: #f5f3ef;
+    }
+    #nc-root {
+      min-height: 100vh;
+    }
+    /* Custom CMS styling */
+    [class*="ToolbarContainer"] {
+      background: #2d1a0d !important;
+    }
+    [class*="ToolbarContainer"] button {
+      color: #c9a84c !important;
+    }
+    [class*="SidebarContainer"] {
+      background: #1a1209 !important;
+    }
+    [class*="SidebarContainer"] a {
+      color: rgba(255,255,255,0.8) !important;
+    }
+    [class*="SidebarContainer"] a[class*="active"] {
+      color: #c9a84c !important;
+      background: rgba(201,168,76,0.1) !important;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Initialize Decap CMS
+    CMS.init();
+
+    // Handle Netlify Identity for Git Gateway
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

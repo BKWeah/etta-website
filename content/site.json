@@ -1,0 +1,321 @@
+{
+  "site": {
+    "title": "ETTA Trading Corporation | Liberian Cocoa for Responsible Global Markets",
+    "tagline": "Empowering Farmers. Cultivating Quality.",
+    "description": "ETTA Trading Corporation connects Liberian smallholder farmers to responsible regional and global cocoa buyers through direct sourcing, careful handling, and transparent trade.",
+    "logo": "/images/etta-logo.png",
+    "favicon": "/images/etta-logo.png"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "#hero"
+      },
+      {
+        "label": "About",
+        "url": "#about"
+      },
+      {
+        "label": "Products",
+        "url": "#products",
+        "dropdown": [
+          {
+            "label": "Cocoa",
+            "url": "#products"
+          },
+          {
+            "label": "Coffee",
+            "url": "#products"
+          }
+        ]
+      },
+      {
+        "label": "Operations",
+        "url": "#operations"
+      },
+      {
+        "label": "Sustainability",
+        "url": "#sustainability"
+      },
+      {
+        "label": "Leadership",
+        "url": "#leadership"
+      },
+      {
+        "label": "Gallery",
+        "url": "#gallery"
+      },
+      {
+        "label": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "headline": "Quality Liberian Cocoa, Built on Farmer Trust",
+    "subheadline": "ETTA Trading Corporation connects Liberian smallholder farmers to responsible regional and global cocoa buyers through direct sourcing, careful handling, and transparent trade.",
+    "cta_primary": {
+      "label": "Partner With Us",
+      "url": "#contact"
+    },
+    "cta_secondary": {
+      "label": "Learn Our Story",
+      "url": "#about"
+    },
+    "background_image": "/images/hero-cocoa-farm.jpg",
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Partner Farmers"
+      },
+      {
+        "number": "12",
+        "label": "Communities Served"
+      },
+      {
+        "number": "UNDP",
+        "label": "Growth Accelerator"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About ETTA",
+    "headline": "A purpose-driven cocoa trading company rooted in Liberia",
+    "content": "ETTA Trading Corporation is a Liberian agro-based social enterprise established by young entrepreneurs with a shared vision: to transform Liberia's cocoa sector. We are not a middleman operation with no accountability. We are a direct trade company with farmer relationships at the center. Our focus is practical: empower farmers, cultivate quality, and connect Liberian cocoa to reliable regional and global markets that respect responsible sourcing.",
+    "image": "/images/etta-team-group.jpg",
+    "values": [
+      {
+        "title": "Farmer Empowerment",
+        "description": "We work directly with farming cooperatives, providing training, fair pricing, and market access."
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Rigorous sorting, grading, and processing standards ensure every batch meets international export requirements."
+      },
+      {
+        "title": "Sustainable Practices",
+        "description": "We promote agroforestry, organic methods, and environmental stewardship across our supply chain."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Our Products",
+    "headline": "Export-Grade Cocoa & Coffee",
+    "description": "From the fertile soils of Liberia's rainforest belt, we source and trade premium agricultural commodities that meet the highest international standards.",
+    "items": [
+      {
+        "name": "Fermented Dry Cocoa Beans",
+        "category": "Cocoa",
+        "description": "Grade 1 fermented and sun-dried cocoa beans with optimal flavor profiles for chocolate manufacturing. Moisture content below 8%, fully fermented with zero mold.",
+        "image": "/images/cocoa-pods-ripe.jpg",
+        "specs": [
+          "Origin: Nimba & Lofa Counties",
+          "Grade: Export Standard",
+          "Moisture: < 8%",
+          "Fermentation: 5-7 days"
+        ]
+      },
+      {
+        "name": "Raw Cocoa Beans",
+        "category": "Cocoa",
+        "description": "High-quality raw cocoa beans for specialty chocolate makers and industrial processors seeking unique terroir flavors.",
+        "image": "/images/cocoa-pods-green.jpg",
+        "specs": [
+          "Origin: Multiple Regions",
+          "Variety: Trinitario & Forastero",
+          "Processing: Sun-dried",
+          "Packaging: 50kg jute bags"
+        ]
+      },
+      {
+        "name": "Arabica Coffee Beans",
+        "category": "Coffee",
+        "description": "Premium washed Arabica coffee beans grown in Liberia's highland regions. Bright acidity with citrus and floral notes.",
+        "image": "/images/coffee-cherries.jpg",
+        "specs": [
+          "Origin: Nimba Highlands",
+          "Process: Washed",
+          "Altitude: 800-1200m",
+          "Screen Size: 16+"
+        ]
+      },
+      {
+        "name": "Robusta Coffee Beans",
+        "category": "Coffee",
+        "description": "Bold, full-bodied Robusta coffee with high caffeine content, ideal for espresso blends and instant coffee production.",
+        "image": "/images/coffee-robusta.jpg",
+        "specs": [
+          "Origin: Lowland Regions",
+          "Process: Natural",
+          "Caffeine: High",
+          "Usage: Espresso/Instant"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "eyebrow": "Our Operations",
+    "headline": "From Farm to Port with Precision",
+    "description": "Our integrated supply chain ensures quality at every step—from farmer training and collection to processing, storage, and export logistics.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Farmer Partnership",
+        "description": "We establish long-term relationships with registered farming cooperatives, providing agricultural inputs and technical training."
+      },
+      {
+        "number": "02",
+        "title": "Collection & Sorting",
+        "description": "Produce is collected at regional buying centers where initial quality assessment, weighing, and fair pricing occur."
+      },
+      {
+        "number": "03",
+        "title": "Processing & Fermentation",
+        "description": "Cocoa undergoes controlled fermentation and sun-drying. Coffee is washed, pulped, and dried to precise moisture levels."
+      },
+      {
+        "number": "04",
+        "title": "Quality Control",
+        "description": "Every batch is tested for moisture, mold, foreign matter, and bean count to ensure export compliance."
+      },
+      {
+        "number": "05",
+        "title": "Storage & Export",
+        "description": "Processed commodities are stored in climate-controlled warehouses before containerization and shipment to international buyers."
+      }
+    ],
+    "image": "/images/etta-warehouse.jpg"
+  },
+  "sustainability": {
+    "eyebrow": "Sustainability",
+    "headline": "Cultivating a Greener Future",
+    "description": "Environmental stewardship and community wellbeing are at the core of our business model. We believe sustainable agriculture is the only path forward.",
+    "initiatives": [
+      {
+        "title": "Agroforestry Programs",
+        "description": "We promote shade-grown cocoa and coffee intercropped with native trees, preserving biodiversity and carbon sequestration.",
+        "icon": "tree"
+      },
+      {
+        "title": "Farmer Training",
+        "description": "Regular workshops on organic farming, post-harvest handling, and climate adaptation techniques.",
+        "icon": "education"
+      },
+      {
+        "title": "Women's Empowerment",
+        "description": "Over 40% of our partner farmers are women. We provide dedicated support, financing access, and leadership training.",
+        "icon": "community"
+      },
+      {
+        "title": "Zero Deforestation",
+        "description": "Strict policy against encroachment into protected forests. All sourcing from existing farmland only.",
+        "icon": "shield"
+      }
+    ],
+    "image": "/images/cocoa-farm-wide.jpg"
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "headline": "Meet the Team Behind ETTA",
+    "description": "Our leadership combines deep agricultural expertise with international business acumen, all rooted in Liberian soil.",
+    "ceo": {
+      "name": "Ernest M. Jacobs",
+      "title": "Founder & Chief Executive Officer",
+      "bio": "Ernest founded ETTA Trading Corporation with a vision to transform Liberia's agricultural sector. With over 10 years of experience in commodity trading and rural development, he has built ETTA into a trusted bridge between Liberian farmers and global markets. His leadership emphasizes ethical sourcing, farmer empowerment, and sustainable growth. Ernest leads ETTA's vision, trade strategy, institutional partnerships, and market direction.",
+      "image": "/images/ceo-ernest.jpg"
+    },
+    "team": [
+      {
+        "name": "Orocious Moifore",
+        "title": "Operations Manager",
+        "bio": "Coordinates field operations, sourcing activity, and day-to-day supply chain execution across all ETTA facilities.",
+        "image": "/images/team-orocious.jpg"
+      },
+      {
+        "name": "Thompson K. Kpair",
+        "title": "Quality Control Specialist",
+        "bio": "Supports cocoa quality standards, product handling, inspection, and buyer-readiness across the supply chain.",
+        "image": "/images/team-thompson.jpg"
+      },
+      {
+        "name": "Gboinzo K. Gblorso",
+        "title": "Board Member",
+        "bio": "Provides governance support, strategic guidance, and oversight for responsible growth and institutional development.",
+        "image": "/images/team-gboinzo.jpg"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "headline": "Life at ETTA",
+    "description": "A visual journey through our farms, facilities, team, and the communities we serve across Liberia.",
+    "images": [
+      {
+        "src": "/images/gallery-cocoa-harvest.jpg",
+        "alt": "Cocoa harvest",
+        "caption": "Peak harvest season in Nimba County"
+      },
+      {
+        "src": "/images/gallery-farmers.jpg",
+        "alt": "Partner farmers",
+        "caption": "ETTA partner farmers at training workshop"
+      },
+      {
+        "src": "/images/gallery-warehouse.jpg",
+        "alt": "Storage facility",
+        "caption": "Climate-controlled storage in Karnplay"
+      },
+      {
+        "src": "/images/gallery-drying.jpg",
+        "alt": "Sun drying cocoa",
+        "caption": "Traditional sun-drying preserves flavor"
+      },
+      {
+        "src": "/images/gallery-team.jpg",
+        "alt": "ETTA team",
+        "caption": "The ETTA team at headquarters"
+      },
+      {
+        "src": "/images/gallery-coffee.jpg",
+        "alt": "Coffee cherries",
+        "caption": "Fresh coffee cherries ready for processing"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "headline": "Let's Build Something Together",
+    "description": "Whether you're a buyer seeking premium Liberian cocoa or coffee, or a farmer looking for a fair trading partner—we're here to connect.",
+    "formspree_endpoint": "https://formspree.io/f/xkokvlar",
+    "info": {
+      "address": "Karnplay City, Nimba County, Republic of Liberia",
+      "phone": "+231 77 789 4568 / +231 77 606 1496 / +231 55 557 0213",
+      "email": "ettatradingcorporation@gmail.com",
+      "hours": "Monday – Friday: 8:00 AM – 5:00 PM GMT"
+    },
+    "social": {
+      "facebook": "https://facebook.com/ettatradingcorp",
+      "linkedin": "https://linkedin.com/company/etta-trading-corporation",
+      "instagram": "https://instagram.com/ettatradingcorp"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 ETTA Trading Corporation. All rights reserved.",
+    "tagline": "Empowering Farmers. Cultivating Quality.",
+    "links": [
+      {
+        "label": "Privacy Policy",
+        "url": "#"
+      },
+      {
+        "label": "Terms of Service",
+        "url": "#"
+      },
+      {
+        "label": "Admin Login",
+        "url": "/admin"
+      }
+    ]
+  }
+}
