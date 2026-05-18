@@ -1,0 +1,139 @@
+backend:
+  name: github
+  repo: BKWeah/etta-website
+  branch: main
+  base_url: https://www.ettatradingcorp.com
+  auth_endpoint: /api/auth
+
+media_folder: "images"
+public_folder: "/images"
+
+site_url: https://www.ettatradingcorp.com
+display_url: https://www.ettatradingcorp.com
+logo_url: /images/logo.png
+
+collections:
+  - name: "site_content"
+    label: "Website Content"
+    files:
+      - label: "Main Site Content"
+        name: "site"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Site Settings"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Company Name", name: "companyName", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+              - { label: "Address", name: "address", widget: "text" }
+              - { label: "Formspree Endpoint", name: "formspreeEndpoint", widget: "string" }
+              - { label: "Copyright", name: "copyright", widget: "string" }
+
+          - label: "Home"
+            name: "home"
+            widget: "object"
+            fields:
+              - { label: "Hero Eyebrow", name: "heroEyebrow", widget: "string" }
+              - { label: "Hero Title", name: "heroTitle", widget: "string" }
+              - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+              - { label: "Hero Image", name: "heroImage", widget: "image" }
+              - { label: "Intro Title", name: "introTitle", widget: "string" }
+              - { label: "Intro Text", name: "introText", widget: "text" }
+              - { label: "Intro Image", name: "introImage", widget: "image" }
+              - { label: "Feature Title", name: "featureTitle", widget: "string" }
+              - { label: "Feature Text", name: "featureText", widget: "text" }
+              - { label: "Feature Image", name: "featureImage", widget: "image" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Story Paragraphs"
+                name: "story"
+                widget: "list"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - { label: "Mission", name: "mission", widget: "text" }
+              - { label: "Vision", name: "vision", widget: "text" }
+              - label: "Values"
+                name: "values"
+                widget: "list"
+                field: { label: "Value", name: "value", widget: "string" }
+
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Details", name: "details", widget: "text" }
+
+          - label: "Operations"
+            name: "operations"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Sustainability"
+            name: "sustainability"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Pillars"
+                name: "pillars"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Leadership"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image", required: false }
+                  - { label: "Bio", name: "bio", widget: "text", required: false }
+                  - { label: "Status", name: "status", widget: "select", options: ["complete", "updating"] }
+
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
