@@ -1,0 +1,302 @@
+{
+  "site": {
+    "companyName": "ETTA Trading Corporation",
+    "tagline": "Empowering Farmers. Cultivating Quality.",
+    "logo": "/images/logo.png",
+    "email": "ettatradingcorp@gmail.com",
+    "phone": "+231 777 894 568",
+    "whatsapp": "231777894568",
+    "address": "Rehab Drive, Paynesville City, Monrovia, Liberia",
+    "formspreeEndpoint": "https://formspree.io/f/xkokvlar",
+    "copyright": "\u00a9 2026 ETTA Trading Corporation. All rights reserved."
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "index.html"
+    },
+    {
+      "label": "About",
+      "url": "about.html",
+      "children": [
+        {
+          "label": "Company Overview",
+          "url": "about.html#overview"
+        },
+        {
+          "label": "Mission & Vision",
+          "url": "about.html#mission"
+        },
+        {
+          "label": "Farmer Partnerships",
+          "url": "about.html#partnerships"
+        },
+        {
+          "label": "Leadership",
+          "url": "leadership.html"
+        }
+      ]
+    },
+    {
+      "label": "Products",
+      "url": "products.html",
+      "children": [
+        {
+          "label": "Cocoa",
+          "url": "products.html#cocoa"
+        },
+        {
+          "label": "Coffee",
+          "url": "products.html#coffee"
+        },
+        {
+          "label": "Agricultural Commodities",
+          "url": "products.html#commodities"
+        },
+        {
+          "label": "Quality & Handling",
+          "url": "operations.html#quality"
+        }
+      ]
+    },
+    {
+      "label": "Operations",
+      "url": "operations.html"
+    },
+    {
+      "label": "Sustainability",
+      "url": "sustainability.html",
+      "children": [
+        {
+          "label": "Farmer Empowerment",
+          "url": "sustainability.html#farmers"
+        },
+        {
+          "label": "Community Impact",
+          "url": "sustainability.html#community"
+        },
+        {
+          "label": "Ethical Trade",
+          "url": "sustainability.html#ethics"
+        }
+      ]
+    },
+    {
+      "label": "Leadership",
+      "url": "leadership.html"
+    },
+    {
+      "label": "Gallery",
+      "url": "gallery.html"
+    },
+    {
+      "label": "Contact",
+      "url": "contact.html"
+    }
+  ],
+  "home": {
+    "heroEyebrow": "Liberian Cocoa \u2022 Coffee \u2022 Responsible Trade",
+    "heroTitle": "Connecting Liberia\u2019s Cocoa and Coffee to Trusted Markets",
+    "heroSubtitle": "ETTA Trading Corporation works with farmers and farming communities to source quality cocoa, coffee, and agricultural commodities through responsible trade, careful handling, and export-ready systems.",
+    "heroImage": "/images/hero-farmers.jpg",
+    "primaryCta": {
+      "label": "Partner With ETTA",
+      "url": "contact.html"
+    },
+    "secondaryCta": {
+      "label": "Explore Products",
+      "url": "products.html"
+    },
+    "introTitle": "A Liberian agricultural trading company built on farmer trust.",
+    "introText": "ETTA Trading Corporation is rooted in Liberia\u2019s agricultural potential. We connect smallholder farmers, communities, and responsible buyers through a practical value-chain approach focused on cocoa, coffee, quality handling, and sustainable market access.",
+    "introImage": "/images/cocoa-tree-green-2.jpg",
+    "featureTitle": "From farms to responsible markets",
+    "featureText": "Our work begins in the field and continues through sourcing, aggregation, quality control, market linkage, and partnership development.",
+    "featureImage": "/images/cocoa-harvest-ground.jpg"
+  },
+  "about": {
+    "title": "Rooted in Liberia\u2019s Cocoa and Coffee Future",
+    "subtitle": "ETTA is building a stronger agricultural value chain through farmer partnerships, responsible sourcing, and market-focused operations.",
+    "image": "/images/cocoa-tree-wide-1.jpg",
+    "story": [
+      "ETTA Trading Corporation is a Liberian agricultural trading company focused on cocoa, coffee, and responsible commodity sourcing. The company works with farmers and farming communities to strengthen market access, improve product quality, and support sustainable agricultural growth.",
+      "Through direct farmer engagement and market-oriented operations, ETTA is positioned to support Liberia\u2019s role in regional and international agricultural trade while maintaining a strong commitment to trust, transparency, and quality."
+    ],
+    "mission": "To empower farmers and farming communities through responsible sourcing, quality-driven agricultural trade, and sustainable access to reliable markets.",
+    "vision": "To become a trusted Liberian agricultural trading company recognized for quality cocoa, coffee, ethical partnerships, and export-ready operations.",
+    "values": [
+      "Farmer Trust",
+      "Quality Handling",
+      "Transparency",
+      "Sustainable Growth",
+      "Export Readiness",
+      "Community Partnership"
+    ]
+  },
+  "products": [
+    {
+      "name": "Cocoa",
+      "slug": "cocoa",
+      "image": "/images/red-cocoa-pods.jpg",
+      "summary": "Quality cocoa sourced from Liberian farms and farming communities.",
+      "details": "ETTA\u2019s cocoa operations are built around direct farmer relationships, careful sourcing, and quality handling. From cocoa pods in the field to aggregated market-ready supply, the company supports a more reliable and transparent cocoa value chain."
+    },
+    {
+      "name": "Coffee",
+      "slug": "coffee",
+      "image": "/images/coffee-plant-1.jpg",
+      "summary": "Responsible coffee sourcing rooted in local agricultural potential.",
+      "details": "ETTA recognizes coffee as part of Liberia\u2019s agricultural opportunity. The company\u2019s coffee direction focuses on farmer engagement, responsible sourcing, and market development for quality supply."
+    },
+    {
+      "name": "Agricultural Commodities",
+      "slug": "commodities",
+      "image": "/images/cocoa-pods-harvest.jpg",
+      "summary": "Broader agricultural trading opportunities built around local production.",
+      "details": "Beyond cocoa and coffee, ETTA is positioned to support agricultural commodity trading where quality, farmer relationships, and market readiness align."
+    }
+  ],
+  "operations": {
+    "title": "From Farm to Market",
+    "subtitle": "ETTA\u2019s operational model connects production, quality, aggregation, and market access.",
+    "image": "/images/etta-office-1.jpg",
+    "steps": [
+      {
+        "title": "Farmer Engagement",
+        "text": "Building working relationships with farming communities and local producers."
+      },
+      {
+        "title": "Responsible Sourcing",
+        "text": "Sourcing cocoa, coffee, and commodities through transparent and practical field-level systems."
+      },
+      {
+        "title": "Quality Inspection",
+        "text": "Checking product condition, handling standards, and market readiness."
+      },
+      {
+        "title": "Aggregation & Handling",
+        "text": "Organizing supply for buyers and responsible trade partners."
+      },
+      {
+        "title": "Market Linkage",
+        "text": "Connecting local production to regional and global opportunities."
+      }
+    ]
+  },
+  "sustainability": {
+    "title": "Empowering Farmers, Strengthening Communities",
+    "subtitle": "Sustainability at ETTA means practical support for farmers, responsible trade, and long-term agricultural growth.",
+    "image": "/images/farmers-training-2.jpg",
+    "pillars": [
+      {
+        "title": "Farmer Empowerment",
+        "text": "Supporting farmers with market access, fairer relationships, and value-chain participation."
+      },
+      {
+        "title": "Community Engagement",
+        "text": "Building trust with farming communities and supporting local agricultural livelihoods."
+      },
+      {
+        "title": "Sustainable Sourcing",
+        "text": "Promoting responsible sourcing practices that respect land, people, and long-term production."
+      },
+      {
+        "title": "Ethical Trade",
+        "text": "Encouraging transparent relationships among farmers, aggregators, buyers, and partners."
+      }
+    ]
+  },
+  "leadership": {
+    "title": "Leadership Rooted in Strategy and Sustainability",
+    "intro": "ETTA\u2019s leadership combines agricultural vision, financial discipline, operational structure, and commitment to Liberia\u2019s cocoa and coffee future.",
+    "members": [
+      {
+        "name": "Ernest M. Jacobs",
+        "title": "Chief Executive Officer",
+        "image": "/images/ceo-ernest.jpg",
+        "bio": "Dynamic and results-driven executive with extensive experience in financial management, business administration, strategic planning, and organizational leadership. Possessing a Master of Business Administration (MBA) in Accounting and over five years of progressive leadership experience across finance, administration, auditing, and operational management. Passionate about driving growth and innovation within the cocoa and coffee sector through sustainable business practices, value-chain development, export readiness, financial accountability, and strategic partnerships.",
+        "status": "complete"
+      },
+      {
+        "name": "Bendu Akoi",
+        "title": "Accountant",
+        "image": "",
+        "bio": "",
+        "status": "updating"
+      },
+      {
+        "name": "Orocious Moifore",
+        "title": "Operations Manager",
+        "image": "",
+        "bio": "",
+        "status": "updating"
+      },
+      {
+        "name": "Thompson K. Kpair",
+        "title": "Quality Control Specialist",
+        "image": "",
+        "bio": "",
+        "status": "updating"
+      },
+      {
+        "name": "Gboinzo K. Gblorso",
+        "title": "Board Member",
+        "image": "",
+        "bio": "",
+        "status": "updating"
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "title": "Farmer training and community engagement",
+      "category": "Community",
+      "image": "/images/farmers-training-1.jpg"
+    },
+    {
+      "title": "Field group with ETTA partners",
+      "category": "Community",
+      "image": "/images/farmers-training-2.jpg"
+    },
+    {
+      "title": "Cocoa harvest collection",
+      "category": "Cocoa",
+      "image": "/images/cocoa-harvest-ground.jpg"
+    },
+    {
+      "title": "Cocoa pods after harvest",
+      "category": "Cocoa",
+      "image": "/images/cocoa-pods-harvest.jpg"
+    },
+    {
+      "title": "Green cocoa pods in the field",
+      "category": "Cocoa",
+      "image": "/images/green-cocoa-pods.jpg"
+    },
+    {
+      "title": "Coffee plant in production",
+      "category": "Coffee",
+      "image": "/images/coffee-plant-1.jpg"
+    },
+    {
+      "title": "ETTA office facility",
+      "category": "Operations",
+      "image": "/images/etta-office-1.jpg"
+    },
+    {
+      "title": "Field operations",
+      "category": "Operations",
+      "image": "/images/field-operations.jpg"
+    },
+    {
+      "title": "Farmers holding cocoa pods",
+      "category": "Farmers",
+      "image": "/images/farmers-with-cocoa.jpg"
+    }
+  ],
+  "contact": {
+    "title": "Partner With ETTA",
+    "subtitle": "For sourcing, partnership, investment, community engagement, or export-related inquiries, contact ETTA Trading Corporation.",
+    "image": "/images/etta-office-2.jpg"
+  }
+}
