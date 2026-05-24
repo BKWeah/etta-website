@@ -7,7 +7,7 @@
   "products": [
     {
       "name": "Cocoa & Coffee",
-      "slug": "cocoa & Coffee",
+      "slug": " Coffee & Cocoa ",
       "image": "/images/red-cocoa-pods.jpg",
       "summary": "Quality cocoa sourced from Liberian farms and farming communities.",
       "details": "ETTA’s cocoa operations are built around direct farmer relationships, careful sourcing, and quality handling. From cocoa pods in the field to aggregated market-ready supply, the company supports a more reliable and transparent cocoa value chain."
@@ -16,12 +16,12 @@
       "name": "Coffee",
       "slug": "coffee",
       "image": "/images/whatsapp-image-2026-05-09-at-20.39.13.jpeg",
-      "summary": "Responsible coffee sourcing rooted in local agricultural potential.",
+      "summary": "Responsible Coffee sourcing Rooted in local Agricultural potential.",
       "details": "ETTA recognizes coffee as part of Liberia’s agricultural opportunity. The company’s coffee direction focuses on farmer engagement, responsible sourcing, and market development for quality supply."
     },
     {
       "name": "Agricultural Commodities",
-      "slug": "commodities",
+      "slug": "Commodities",
       "image": "/images/whatsapp-image-2026-05-09-at-20.39.07.jpeg",
       "summary": "Broader agricultural trading opportunities built around local production.",
       "details": "Beyond cocoa and coffee, ETTA is positioned to support agricultural commodity trading where quality, farmer relationships, and market readiness align."
